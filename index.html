@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SkyCast Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="themeToggle">
+    <button id="themeBtn">🌙 Dark Mode</button>
+</div>
+<!-- Floating Clouds Layer -->
+<div class="clouds">
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+</div>
+<div class="AppCard">
+    <div class="title">
+        <h1>SkyCast</h1>
+        <p>Check Weather using <span>City or Location</span></p>
+    </div>
+
+    <div class="searchArea">
+        <input id="impTXT" type="text" placeholder="Enter city name">
+        <button id="searchBtn"><img src="search.png"></button>
+    </div>
+
+    <button id="locationBtn">📍 Use My Location</button>
+    <p class="error"></p>
+    <div class="loader"></div>
+
+    <div class="WeatherDisplay">
+        <div id="weatherAnimation" style="height:150px;"></div>
+        <h1 class="temperature"></h1>
+        <h2 class="city"></h2>
+
+        <div class="detailsInfo">
+            <div class="column">
+                <img src="humidity.png" class="humidityIcon">
+                <div>
+                    <p class="humidity"></p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="wind.png" class="windIcon">
+                <div>
+                    <p class="wind"></p>
+                    <p>Wind</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 🔮 7 Days Forecast -->
+    <div class="forecastBox">
+        <h2>7 Day Forecast</h2>
+        <div class="forecastContainer" id="forecastContainer"></div>
+    </div>
+</div>
+<script src="https://unpkg.com/lottie-web@5.12.2/build/player/lottie.min.js"></script>
+<script src="script.js"></script>
+<footer class="appFooter">
+    <p>🌤️ SkyCast Weather App • Built by Piyush Chawla</p>
+</footer>
+</body>
+</html>
