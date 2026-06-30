@@ -2,7 +2,7 @@
 
 const apiURL = "https://api.openweathermap.org/data/2.5/weather";
 const forecastAPI = "https://api.openweathermap.org/data/2.5/forecast";
-const apiKey = "6138cbe655f7380d180b51393f7a7bf3";
+const apiKey = "6138cbe655f7380d180b51393f******";
 
 const input = document.getElementById("impTXT");
 const searchBtn = document.querySelector(".searchArea button");
