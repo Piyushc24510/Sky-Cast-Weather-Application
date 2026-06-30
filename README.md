@@ -22,14 +22,6 @@ Lottie Animations
 
 Add your demo.png or a GIF here.
 
-🚀 Getting Started
-
-Clone the repository
-
-git clone https://github.com/your-username/sky-cast-weather-app.git
-Open the project folder.
-Replace the OpenWeather API key in script.js with your own API key.
-Open index.html in your browser.
 📂 Project Structure
 📦 Sky Cast Weather App
 ├── index.html
@@ -39,7 +31,9 @@ Open index.html in your browser.
 ├── humidity.png
 ├── wind.png
 └── weather icons
+
 📌 Future Improvements
+
 Air Quality Index (AQI)
 Weather alerts
 Hourly forecast
@@ -48,3 +42,5 @@ Save favorite cities
 👨‍💻 Author
 
 Piyush Chawla
+
+ Live Running of Link https://climateviewz.netlify.app/
